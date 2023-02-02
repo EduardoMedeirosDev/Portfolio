@@ -248,30 +248,36 @@ li:hover {
 
 .form-container {
     width: 100%;
-    height: 100%;
+    height: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('tumblr_static_44zeojouwp44k4w088ccgcow0.jpg');
+    background-position: 85% 50%;
 }
 
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: cadetblue;
+    background-color: #000;
     width: 500px;
-    height: 600px;
+    height: 550px;
     padding: 20px;
+    border: .5px solid #fff;
+    border-radius: 8px;
     font-family: 'Oswald', sans-serif;
 }
 
 label {
     display: block;
+    color: #fff;
 }
 
 input {
     display: block;
-    width: 100%;
+    width: 100%;    
+    border-radius: 5px;
 }
 
 textarea {
@@ -282,6 +288,7 @@ textarea {
     height: 300px;
     min-height: 300px;
     max-height: 300px;
+    border-radius: 5px;
 }
 
 button {
@@ -291,4 +298,6 @@ button {
     color: #333;
     border-radius: 8px;
     padding: 8px 12px;
+    margin-top: 15px;
+    margin-left: 3px;
 }
