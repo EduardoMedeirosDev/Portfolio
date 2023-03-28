@@ -263,7 +263,10 @@ li:hover {
     justify-content: center;
     align-items: center;
     background-image: url('./assets/tumblr_static_44zeojouwp44k4w088ccgcow0.jpg');
-    background-position: 85% 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .form-box {
