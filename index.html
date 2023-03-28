@@ -30,7 +30,7 @@
         <div class="profile-container">
             <div class="profile-content">
                 <div class="profile-card">
-                    <img class="profile-image" src="./WhatsApp Image 2022-11-16 at 12.22.27.jpeg"/>
+                    <img class="profile-image" src="./assets/WhatsApp Image 2022-11-16 at 12.22.27.jpeg"/>
                     <span class="name-text">Eduardo Medeiros</span>
                     <span class="profile-text">
                         Organização, disciplina e consistência.
@@ -42,9 +42,9 @@
                     </a>
                     <div class="divider"></div>
                     <div class="icons-container">
-                        <img class="icon-item" src="./js.png" />
-                        <img class="icon-item" src="./node.png" />
-                        <img class="icon-item" src="./react.png" />
+                        <img class="icon-item" src="./assets/js.png" />
+                        <img class="icon-item" src="./assets/node.png" />
+                        <img class="icon-item" src="./assets/react.png" />
                     </div>
                 </div>
             </div>
@@ -61,69 +61,68 @@
             <div class="project-content">
                 <div class="position-container right">
                     <div class="project-card">
-                        <image class="project-image" src="./batmanimage.png" />
+                        <image class="project-image" src="./assets/batmanimage.png" />
                         <p class="project-text">               
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at purus a leo ultricies tincidunt.
-                            Vivamus iaculis libero faucibus maximus elementum. Nunc ac libero est. Nulla facilisi. 
-                            Nunc ultricies imperdiet rutrum. Nunc sed nisi quis metus ornare tempus. Donec molestie arcu sed sagittis scelerisque.
-                            Ut sem nisi, interdum eget nibh eu, porta scelerisque arcu. Mauris tempus ligula mi.
+                          Projeto de HTML e CSS simples, com responsividade: <br>
+                          Batman é um herói que sou muito fã. Então decidi manter esse personagem nesse Projeto. <br>
+                          Eu desenvolvi esse projeto com a orientação do curso Profissão Programador.
                         </p>
                     </div>
                 </div>
 
                 <div class="position-container left">
                     <div class="project-card card-reverse">
-                        <image class="project-image image-reverse" src="./YTIMAGE.jpeg" />
+                        <image class="project-image image-reverse" src="./assets/YTIMAGE.jpeg" />
                         <p class="project-text">               
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at purus a leo ultricies tincidunt.
-                            Vivamus iaculis libero faucibus maximus elementum. Nunc ac libero est. Nulla facilisi. 
-                            Nunc ultricies imperdiet rutrum. Nunc sed nisi quis metus ornare tempus. Donec molestie arcu sed sagittis scelerisque.
-                            Ut sem nisi, interdum eget nibh eu, porta scelerisque arcu. Mauris tempus ligula mi.
+                            Projeto de desenvolver um clone do Youtube com Reactjs, NodeJs, MariaDb. <br>                          
+                            Ele já possui boa parte da estrutura montada, falta desenvolver coisas específicas
+                            como, integrar o frontend com o backend para adicionar vídeos, 
+                            para conseguir fazer a pesquisa etc.
+                            Há muito a melhorá-lo e estou muito engajado nesse projeto atualmente. 
+                            Estou desenvolvendo esse projeto com a orientação do curso Profissão Programador.
+
                         </p>
                     </div>
                 </div>
 
                 <div class="position-container right">
                     <div class="project-card">
-                        <image class="project-image" src="./wppimage.jpeg" />
+                        <image class="project-image" src="./assets/gamemultplayer.png" />
                         <p class="project-text">               
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at purus a leo ultricies tincidunt.
-                            Vivamus iaculis libero faucibus maximus elementum. Nunc ac libero est. Nulla facilisi. 
-                            Nunc ultricies imperdiet rutrum. Nunc sed nisi quis metus ornare tempus. Donec molestie arcu sed sagittis scelerisque.
-                            Ut sem nisi, interdum eget nibh eu, porta scelerisque arcu. Mauris tempus ligula mi.
+                            Projeto de desenvolver um Jogo Multplayer 2d com HTML, JavaScript e Node. <br>
+                            Esse projeto foi muito desafiador de se fazer, porém em cada passo que fui evoluindo,
+                            deu mais empolgação para continuar. Aprendi muito sobre
+                            arquitetura de software, api, integração do backend com o frontend com socketio etc.
+                            Ele ainda possui funcionalidades que gostaria de desenvolver, 
+                            porém no momento estou focado em outro projeto!
                         </p>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
+    <div class="form-container">
+        <div class="form-background">
+            <div class="form-box">
+                 <form 
+                    class="form"
+                    action="https://formspree.io/f/xpzewbwp"
+                    method="POST"
+                >
+                    <input class="form_input" type="text" placeholder="Nome">
 
-    <div class="content-container">
-        <div class="form-container">
-            <form
-            action="https://formspree.io/f/xpzewbwp"
-            method="POST"
-            >
-                <label>
-            Email:
-            <input type="email" name="email">
-            </label>
-            <label>
-                Nome:
-                <input type="text" name="name">
-            </label>
-            <label>
-                Telefone:
-                <input type="text" name="phone">
-            </label>
-            <label>
-                Sua mensagem:
-            <textarea name="message"></textarea>
-            </label>
-                <button type="submit">Enviar</button>
-            </form>
+                    <input class="form_input" type="email" placeholder="Email">
+
+                    <input class="form_input" type="text" name="phone" placeholder="Telefone">
+
+                    <textarea class="form_input" name="message" placeholder="Mensagem"></textarea>
+
+                    <button class="form_submit" type="button">Enviar</button>
+                </form>
+            </div>
+           
         </div>
     </div>
-
 </body>
 </html>
